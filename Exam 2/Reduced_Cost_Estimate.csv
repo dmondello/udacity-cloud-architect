@@ -1,0 +1,22 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Initial_Cost_Estimate,Amazon Virtual Private Cloud (VPC),0,37.35,448.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),web server,Amazon EC2,0,100.68,1208.16,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),Application Server,Amazon EC2,0,1569.92,18839.04,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (7 TB), Snapshot Frequency (Daily), Amount changed per snapshot (3 GB), DT In entrata: Not selected (0 TB al mese), DT In uscita: Not selected (0 TB al mese), DT Intra-Region: (0 TB al mese), Workload (Consistent, Number of instances: 1), Advance EC2 instance (r5.8xlarge), Pricing strategy (EC2 Instance Savings Plans 3 Year  None upfront)"
+My Estimate,US East (N. Virginia),DB,Amazon RDS for MariaDB,1625,1784055,23033.66,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year Partial Upfront), Storage volume (General Purpose SSD (gp2)), Storage amount (7 TB per month), Instance type (db.m6g.xlarge)"
+My Estimate,US East (N. Virginia),load balancer,Application Load Balancer,0,1200.85,14410.20,USD,Numero di Application Load Balancer (2)
+My Estimate,US East (N. Virginia),load balancer,Network Load Balancer,0,908.85,10906.20,USD,"Numero di Network Load Balancer (2), Byte elaborati per NLB per TLS (100 GB per ora)"
+My Estimate,US East (N. Virginia),load balancer,Gateway Load Balancer,0,563.9300000000001,6767.16,USD,"Numero di zone di disponibilit� in cui Gateway Load Balancer viene distribuito (1), Numero di Gateway Load Balancer Endpoint (1), Totale byte elaborati (100 GB per ora)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,Storage S3 Standard (10 TB per mese)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Conferma,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+In RDS I change  Storage in RDS From Provisioned IOP SSD To General Popuose and from db.m5.4xlarge to db.m6g.xlarge,,,,,,,,
+In EC2  Storage amount form 10 to 7 TB Snapshot Frequency from 2 X Day to Daily,,,,,,,,
